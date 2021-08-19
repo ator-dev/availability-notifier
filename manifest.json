@@ -3,22 +3,19 @@
 		"scripts": ["/dist/background.js"]
 	},
 
-	"description": "Personal Firefox and webpage modification experiments.",
+	"description": "A product availability notifier for the online Next store.",
 
 	"icons": {
-		"48": "/icons/firemod48.png",
-		"96": "/icons/firemod96.png"
+		"48": "/icons/notifier-48.png",
+		"96": "/icons/notifier-96.png"
 	},
 
 	"manifest_version": 2,
 
-	"name": "FireMod",
+	"name": "Availability Notifier",
 
 	"permissions": [
-		"history",
-		"webNavigation",
-		"cookies",
-		"<all_urls>"
+		"*://www.next.co.uk/*"
 	],
 	
 	"version": "1.0"
